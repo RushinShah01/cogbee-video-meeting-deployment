@@ -26,9 +26,6 @@ export const EndCall = (props: EndCallProps): JSX.Element => {
   const goHomePage = 'Go to homepage';
   const rejoinCall = 'Rejoin call';
 
-  const feedbackLink =
-    'https://docs.microsoft.com/answers/search.html?c=&includeChildren=&f=&type=question+OR+idea+OR+kbentry+OR+answer+OR+topic+OR+user&redirect=search%2Fsearch&sort=relevance&q=azure-communication-services';
-
   return (
     <Stack
       horizontal
@@ -58,7 +55,7 @@ export const EndCall = (props: EndCallProps): JSX.Element => {
           />
         </Stack>
         <div className={bottomStackFooterStyle}>
-          <Link href={feedbackLink}>Give Feedback</Link>&nbsp;on this sample app at Microsoft Q&amp;A
+          <p>Thank you for testing the Cogbee video meeting application</p>
         </div>
       </Stack>
     </Stack>
