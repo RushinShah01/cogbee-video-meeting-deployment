@@ -2,7 +2,7 @@
 // Licensed under the MIT license.
 
 import React from 'react';
-import { DefaultButton, PrimaryButton, Stack, Link, Text } from '@fluentui/react';
+import { DefaultButton, PrimaryButton, Stack, Text } from '@fluentui/react';
 import { Video20Filled } from '@fluentui/react-icons';
 import {
   endCallContainerStyle,
