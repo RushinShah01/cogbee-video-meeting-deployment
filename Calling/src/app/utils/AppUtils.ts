@@ -31,7 +31,9 @@ export const createRandomDisplayName = (): string => 'user' + Math.ceil(Math.ran
  */
 export const getGroupIdFromUrl = (): GroupLocator | undefined => {
   const urlParams = new URLSearchParams(window.location.search);
+  console.log(window.location.search);
   const gid = urlParams.get('groupId');
+  console.log(gid);
   return gid ? { groupId: gid } : undefined;
 };
 
